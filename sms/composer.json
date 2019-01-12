@@ -1,0 +1,26 @@
+{
+    "name": "maikeseng/sms",
+    "description": "this is easy sms",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maikeseng",
+            "email": "haoqijian@126.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4" : {
+            "MaiKe\\" : "src"
+        },
+        "files" : [
+            "src/MaiKeSms.php",
+            "src/ali/AliSms.php",
+            "src/baidu/BaiduSms.php"
+        ],
+        "classmap" : [
+
+        ]
+    }
+}
